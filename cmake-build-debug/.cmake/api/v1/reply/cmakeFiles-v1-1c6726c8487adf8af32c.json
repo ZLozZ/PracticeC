@@ -149,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Practice/C/cmake-build-debug",
-		"source" : "D:/Practice/C"
+		"build" : "D:/Practice/C++/cmake-build-debug",
+		"source" : "D:/Practice/C++"
 	},
 	"version" : 
 	{
