@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/Practice/C/cmake-build-debug/
 
 build cmake_object_order_depends_target_C: phony || CMakeFiles/C.dir
 
-build CMakeFiles/C.dir/managerEmployee.c.obj: C_COMPILER__C_Debug D$:/Practice/C/managerEmployee.c || cmake_object_order_depends_target_C
-  DEP_FILE = CMakeFiles\C.dir\managerEmployee.c.obj.d
+build CMakeFiles/C.dir/arraySort.c.obj: C_COMPILER__C_Debug D$:/Practice/C/arraySort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\arraySort.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C.dir/managerEmployee.c.obj: C_COMPILER__C_Debug D$:/Practice/C
 #############################################
 # Link the executable C.exe
 
-build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/managerEmployee.c.obj
+build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/arraySort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir
