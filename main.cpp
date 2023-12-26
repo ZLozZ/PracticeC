@@ -1,6 +1,13 @@
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    for(int i = 0; i<10;i++){
+        cout<<i<<" ";
+        if(i==5)
+            goto print;
+    }
+    print:
+        cout<<"Hello world";
     return 0;
 }
